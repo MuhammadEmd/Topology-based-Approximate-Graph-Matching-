@@ -1,0 +1,19 @@
+strict digraph "" {
+	g175	[label="not\ng175",
+		shape=invhouse];
+	g179	[label="and\ng179",
+		shape=invhouse];
+	g175 -> g179;
+	g183	[label="not\ng183",
+		shape=invhouse];
+	g170	[label="and\ng170",
+		shape=invhouse];
+	g170 -> g175;
+	g179 -> g183;
+	g151	[label="and\ng151",
+		shape=invhouse];
+	g156	[label="not\ng156",
+		shape=invhouse];
+	g151 -> g156;
+	g156 -> g179;
+}

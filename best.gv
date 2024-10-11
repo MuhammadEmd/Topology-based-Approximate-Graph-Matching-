@@ -1,0 +1,19 @@
+strict digraph "" {
+	g113	[label="and\ng113",
+		shape=invhouse];
+	out2	[label=out2,
+		shape=doublecircle];
+	g113 -> out2;
+	g96	[label="and\ng96",
+		shape=invhouse];
+	g104	[label="not\ng104",
+		shape=invhouse];
+	g96 -> g104;
+	g109	[label="not\ng109",
+		shape=invhouse];
+	g109 -> g113;
+	g104 -> g113;
+	g102	[label="and\ng102",
+		shape=invhouse];
+	g102 -> g109;
+}
